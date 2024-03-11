@@ -21,7 +21,7 @@ function addNewLine() {
         alert(`Número ${ddd.value} ${phone.value} já adicionado.`);
     } else {
         totalName.push(name.value);
-        totalPhone.push(phone.value);
+        totalPhone.push(ddd.value + phone.value);
 
         let line = '<tr>';
         line += `<td>${name.value}</td>`;
