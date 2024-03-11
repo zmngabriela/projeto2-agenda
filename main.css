@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 70vh;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+body, input, select, button {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table th {
+    padding: 10px 5px;
+}
+
+table td {
+    padding: 5px;
+}
+
+tfoot {
+color: gray;
+}
+
+form {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+form h2 {
+    font-size: 16px;
+}
+
+form input,
+form select,
+form button {
+    padding: 5px;
+    border: 0;
+    color: gray;
+    font-size: 15px;
+}
+
+form button {
+    color: white;
+    background-color: lightgray;
+    border-radius: 5%
+}
+
+
+
+

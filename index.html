@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de contatos</h1>
+        </header>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Número total de contatos</td>
+                    <td id="totalContacts"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <form id="form">
+            <h2>Novo</h2>
+            <input id="name" type="text" placeholder="Nome" required />
+            <select>
+                <option id="ddd" selected>DDD</option>
+                <option>+55 BR</option>
+                <option>+34 ES</option>
+                <option>+44 UK</option>
+                <option>+353 IE</option>
+            </select>
+            <input id="phone" type="tel" placeholder="Telefone" required />
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
